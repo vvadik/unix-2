@@ -1,4 +1,4 @@
 all: prog
 
-prog: prog.c
-	gcc prog.c -o prog
+prog: main.c
+	gcc ./main.c -o lock
